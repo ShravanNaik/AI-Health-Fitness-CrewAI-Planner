@@ -42,6 +42,8 @@ hide_footer_style = """
     </style>
 """
 
+st.markdown(hide_footer_style, unsafe_allow_html=True)
+
 # Custom CSS for beautiful presentation
 st.markdown("""
 <style>
